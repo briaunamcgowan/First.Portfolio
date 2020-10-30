@@ -1,14 +1,21 @@
 /*COLOR PALLETE
-#011627 Rich BLack
-#FDFFFC Baby Powder
-#2EC4B6 Tiffany Blue
-#E71D36 Rose Madder
-#FF9F1C Orange Peel
+#FFE09E PIGGY PINK
+
 */
 
-/*HEADER*/
+
+
+
+/**/
+body {background-color: #FFE0E9;}
 
 /*NAVBAR*/
+.navbar-custom {background-color: #FFE0E9;}
+.navbar-brand {color: black;}
+.navbar-nav.navbar-right li a {
+    color: black;
+}
+.navbar-nav li a {color:black;}
 
 
 /*CONTAINER - HP*/
