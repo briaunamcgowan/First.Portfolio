@@ -1,22 +1,48 @@
 /*COLOR PALLETE
 #FFE09E PIGGY PINK
+# BLACK
+#E5E5E5 PlATINUM
 
-*/
 
 
 
 
 /**/
-body {background-color: #FFE0E9;}
+body {background-color: #FFE0E9; height:100%;}
+
 
 /*NAVBAR*/
-.navbar-custom {background-color: #FFE0E9;}
+.navbar-custom {background-color: #FFE0E9; border: 8px solid black}
 .navbar-brand {color: black;}
 .navbar-nav.navbar-right li a {
     color: black;
 }
 .navbar-nav li a {color:black;}
+.navbar-nav li a:hover {background-color: white;}
 
 
 /*CONTAINER - HP*/
-.container {padding-top: 120px;}
+.container {padding-top: 120px; position: relative; font-size: 17px;}
+.img-thumbnail {border: 8px solid black;}
+
+
+
+/*PORTFOLIO*/
+.thumbnail {border: 8px solid black;}
+
+
+/*CONTACT FORM*/
+.col-sm-5 {padding-top: 40px;}
+.heading {text-align: center; 
+    font-size: 45px; text-decoration: underline;
+    font-family: 'Pacifico', cursive;}
+.btn-info {width:50%; background: black; color:#E5E5E5; letter-spacing: 2px; 
+    transition: all 0.5s ease-in-out;}
+.btn-info:hover{transform:scale(1.05);}
+.icon {font-size: 17px;}
+.icon a {color:black}
+
+/*FOOTER*/
+#sticky-footer {
+    flex-shrink: none;
+  }
